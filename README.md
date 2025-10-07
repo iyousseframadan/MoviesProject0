@@ -1,12 +1,61 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React-based Movie Explorer App** that lets users browse movies, search by title, view detailed information, and manage their own profile with authentication.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 [View Project Here](https://movies-project0-lose.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🏠 **Home Page** with highlights & featured sections  
+- 🔎 **Search Movies** using the [OMDb API](https://www.omdbapi.com/)  
+- 📄 **Movie Details Page** (poster, plot, genre, rating, actors, etc.)  
+- 🔐 **Authentication** (Register / Login / Logout) stored in `localStorage`  
+- 👤 **Profile Page** – accessible only to logged-in users (Protected Route)  
+- 📱 **Responsive UI** with modern dark theme  
+- ⚡ **Routing & Navigation** using **React Router DOM**  
+- 🎨 Clean design with reusable components  
+
+---
+
+## 🛠️ Tech Stack
+- ⚛️ **React 18 + Vite**
+- 📦 **React Router DOM**
+- ✅ **React Hook Form** + **Yup** for form validation
+- 🌐 **OMDb API** for fetching movie data
+- 💾 **localStorage** for auth persistence
+- 🎨 **CSS-in-JS (inline styles)** for simplicity
+
+---
+
+## 📂 Project Structure
+src
+├─ components/ # Navbar, ProtectedRoute
+├─ context/ # AuthContext
+├─ pages/ # Home, Movies, MovieDetails, Profile, Login, Register
+├─ App.jsx
+└─ main.jsx
+
+---
+
+---
+
+## ⚡ Installation & Setup
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/movie-app.git
+cd movie-app
+
+# 2. Install dependencies
+npm install
+
+# 3. Run development server
+npm run dev
+## 
+
+👤 Author
+
+Developed by Youssef Ramadan
